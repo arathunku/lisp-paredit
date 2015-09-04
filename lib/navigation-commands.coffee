@@ -25,6 +25,23 @@ module.exports =
       newSelection = new Range(utils.convertIndexToPoint(start, editor), utils.convertIndexToPoint(end, editor))
       editor.setSelectedBufferRange(newSelection)
 
+  shrinkSelection: ->
+    editor = atom.workspace.getActiveTextEditor()
+    ast = paredit.parse(editor.getText())
+    range = editor.getSelectedBufferRange()
+    startIndex = utils.convertPointToIndex(range.start, editor)
+    endIndex = utils.convertPointToIndex(range.end, editor)
+
+    res = paredit.navigator.sexpRangeShrink(ast, startIndex, endIndex)
+    if res and res.length == 2
+      [start, end] = res
+      if start == end
+        editor.setCursorBufferPosition(utils.convertIndexToPoint(start, editor))
+        editor.clearSelections()
+      else
+        newSelection = new Range(utils.convertIndexToPoint(start, editor), utils.convertIndexToPoint(end, editor))
+        editor.setSelectedBufferRange(newSelection)
+
 navigate = (fn) ->
   editor = atom.workspace.getActiveTextEditor()
   ast = paredit.parse(editor.getText())

@@ -1,0 +1,205 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+lisp-paredit-spec.coffee	/home/arathunku/src/lisp-paredit-edited/spec/lisp-paredit-spec.coffee	1;"	file	line:1
+LispParedit	/home/arathunku/src/lisp-paredit-edited/spec/lisp-paredit-spec.coffee	/^describe "LispParedit", ->$/;"	function	line:4
+should be active	/home/arathunku/src/lisp-paredit-edited/spec/lisp-paredit-spec.coffee	/^  it 'should be active', ->$/;"	function	line:21
+when commands are triggered	/home/arathunku/src/lisp-paredit-edited/spec/lisp-paredit-spec.coffee	/^  describe "when commands are triggered", ->$/;"	function	line:24
+testCommand	/home/arathunku/src/lisp-paredit-edited/spec/lisp-paredit-spec.coffee	/^    testCommand = (command, text, expected) ->$/;"	function	line:25
+should #{command}	/home/arathunku/src/lisp-paredit-edited/spec/lisp-paredit-spec.coffee	/^      it "should #{command}", ->$/;"	function	line:26
+should indent text	/home/arathunku/src/lisp-paredit-edited/spec/lisp-paredit-spec.coffee	/^    it "should indent text", ->$/;"	function	line:109
+strict mode	/home/arathunku/src/lisp-paredit-edited/spec/lisp-paredit-spec.coffee	/^    describe "strict mode", ->$/;"	function	line:134
+should not allow close brackets to be inserted when strict mode enabled	/home/arathunku/src/lisp-paredit-edited/spec/lisp-paredit-spec.coffee	/^      it "should not allow close brackets to be inserted when strict mode enabled", ->$/;"	function	line:135
+should allow close brackets to be inserted when strict mode disabled	/home/arathunku/src/lisp-paredit-edited/spec/lisp-paredit-spec.coffee	/^      it "should allow close brackets to be inserted when strict mode disabled", ->$/;"	function	line:141
+should ensure close brackets are inserted when strict mode enabled	/home/arathunku/src/lisp-paredit-edited/spec/lisp-paredit-spec.coffee	/^      it "should ensure close brackets are inserted when strict mode enabled", ->$/;"	function	line:147
+should not add close brackets when strict mode disabled	/home/arathunku/src/lisp-paredit-edited/spec/lisp-paredit-spec.coffee	/^      it "should not add close brackets when strict mode disabled", ->$/;"	function	line:155
+should allow matching brackets to be inserted	/home/arathunku/src/lisp-paredit-edited/spec/lisp-paredit-spec.coffee	/^      it "should allow matching brackets to be inserted", ->$/;"	function	line:163
+should disallow invalid paste input	/home/arathunku/src/lisp-paredit-edited/spec/lisp-paredit-spec.coffee	/^      it "should disallow invalid paste input", ->$/;"	function	line:169
+should allow valid paste input	/home/arathunku/src/lisp-paredit-edited/spec/lisp-paredit-spec.coffee	/^      it "should allow valid paste input", ->$/;"	function	line:178
+assertCursors	/home/arathunku/src/lisp-paredit-edited/spec/lisp-paredit-spec.coffee	/^assertCursors = (actualCursors, expectedCursors) ->$/;"	function	line:203
+assertSelections	/home/arathunku/src/lisp-paredit-edited/spec/lisp-paredit-spec.coffee	/^assertSelections = (actualSelections, expectedSelections) ->$/;"	function	line:210
+parseText	/home/arathunku/src/lisp-paredit-edited/spec/lisp-paredit-spec.coffee	/^parseText = (text) ->$/;"	function	line:222
+CHANGELOG.md	/home/arathunku/src/lisp-paredit-edited/CHANGELOG.md	1;"	file	line:1
+0.4.4	/home/arathunku/src/lisp-paredit-edited/CHANGELOG.md	/^## 0.4.4$/;"	Heading_L2	line:1
+0.4.4	/home/arathunku/src/lisp-paredit-edited/CHANGELOG.md	/^## 0.4.4$/;"	function	line:1
+0.4.3	/home/arathunku/src/lisp-paredit-edited/CHANGELOG.md	/^## 0.4.3$/;"	Heading_L2	line:4
+0.4.3	/home/arathunku/src/lisp-paredit-edited/CHANGELOG.md	/^## 0.4.3$/;"	function	line:4
+0.4.2	/home/arathunku/src/lisp-paredit-edited/CHANGELOG.md	/^## 0.4.2$/;"	Heading_L2	line:7
+0.4.2	/home/arathunku/src/lisp-paredit-edited/CHANGELOG.md	/^## 0.4.2$/;"	function	line:7
+0.4.1	/home/arathunku/src/lisp-paredit-edited/CHANGELOG.md	/^## 0.4.1$/;"	Heading_L2	line:10
+0.4.1	/home/arathunku/src/lisp-paredit-edited/CHANGELOG.md	/^## 0.4.1$/;"	function	line:10
+0.4.0	/home/arathunku/src/lisp-paredit-edited/CHANGELOG.md	/^## 0.4.0$/;"	Heading_L2	line:13
+0.4.0	/home/arathunku/src/lisp-paredit-edited/CHANGELOG.md	/^## 0.4.0$/;"	function	line:13
+0.3.1	/home/arathunku/src/lisp-paredit-edited/CHANGELOG.md	/^## 0.3.1$/;"	Heading_L2	line:17
+0.3.1	/home/arathunku/src/lisp-paredit-edited/CHANGELOG.md	/^## 0.3.1$/;"	function	line:17
+0.3.0	/home/arathunku/src/lisp-paredit-edited/CHANGELOG.md	/^## 0.3.0$/;"	Heading_L2	line:20
+0.3.0	/home/arathunku/src/lisp-paredit-edited/CHANGELOG.md	/^## 0.3.0$/;"	function	line:20
+0.2.5	/home/arathunku/src/lisp-paredit-edited/CHANGELOG.md	/^## 0.2.5$/;"	Heading_L2	line:27
+0.2.5	/home/arathunku/src/lisp-paredit-edited/CHANGELOG.md	/^## 0.2.5$/;"	function	line:27
+0.2.4	/home/arathunku/src/lisp-paredit-edited/CHANGELOG.md	/^## 0.2.4$/;"	Heading_L2	line:30
+0.2.4	/home/arathunku/src/lisp-paredit-edited/CHANGELOG.md	/^## 0.2.4$/;"	function	line:30
+0.2.3	/home/arathunku/src/lisp-paredit-edited/CHANGELOG.md	/^## 0.2.3$/;"	Heading_L2	line:34
+0.2.3	/home/arathunku/src/lisp-paredit-edited/CHANGELOG.md	/^## 0.2.3$/;"	function	line:34
+0.2.2	/home/arathunku/src/lisp-paredit-edited/CHANGELOG.md	/^## 0.2.2$/;"	Heading_L2	line:37
+0.2.2	/home/arathunku/src/lisp-paredit-edited/CHANGELOG.md	/^## 0.2.2$/;"	function	line:37
+0.2.1	/home/arathunku/src/lisp-paredit-edited/CHANGELOG.md	/^## 0.2.1$/;"	Heading_L2	line:40
+0.2.1	/home/arathunku/src/lisp-paredit-edited/CHANGELOG.md	/^## 0.2.1$/;"	function	line:40
+0.2.0	/home/arathunku/src/lisp-paredit-edited/CHANGELOG.md	/^## 0.2.0$/;"	Heading_L2	line:43
+0.2.0	/home/arathunku/src/lisp-paredit-edited/CHANGELOG.md	/^## 0.2.0$/;"	function	line:43
+0.1.4 - First Release	/home/arathunku/src/lisp-paredit-edited/CHANGELOG.md	/^## 0.1.4 - First Release$/;"	Heading_L2	line:47
+0.1.4 - First Release	/home/arathunku/src/lisp-paredit-edited/CHANGELOG.md	/^## 0.1.4 - First Release$/;"	function	line:47
+status-bar-view.coffee	/home/arathunku/src/lisp-paredit-edited/lib/status-bar-view.coffee	1;"	file	line:1
+StatusBarView	/home/arathunku/src/lisp-paredit-edited/lib/status-bar-view.coffee	/^class StatusBarView extends View$/;"	function	line:4
+@content	/home/arathunku/src/lisp-paredit-edited/lib/status-bar-view.coffee	/^  @content: ->$/;"	function	line:5
+initialize	/home/arathunku/src/lisp-paredit-edited/lib/status-bar-view.coffee	/^  initialize: (@statusBar, @toggleCallback, @toggleStrictCallback) ->$/;"	function	line:10
+attach	/home/arathunku/src/lisp-paredit-edited/lib/status-bar-view.coffee	/^  attach: ->$/;"	function	line:13
+detach	/home/arathunku/src/lisp-paredit-edited/lib/status-bar-view.coffee	/^  detach: ->$/;"	function	line:16
+toggle	/home/arathunku/src/lisp-paredit-edited/lib/status-bar-view.coffee	/^  toggle: ->$/;"	function	line:19
+toggleStrict	/home/arathunku/src/lisp-paredit-edited/lib/status-bar-view.coffee	/^  toggleStrict: ->$/;"	function	line:21
+enable	/home/arathunku/src/lisp-paredit-edited/lib/status-bar-view.coffee	/^  enable: ->$/;"	function	line:24
+disable	/home/arathunku/src/lisp-paredit-edited/lib/status-bar-view.coffee	/^  disable: ->$/;"	function	line:26
+enableStrict	/home/arathunku/src/lisp-paredit-edited/lib/status-bar-view.coffee	/^  enableStrict: ->$/;"	function	line:28
+disableStrict	/home/arathunku/src/lisp-paredit-edited/lib/status-bar-view.coffee	/^  disableStrict: ->$/;"	function	line:30
+invalidInput	/home/arathunku/src/lisp-paredit-edited/lib/status-bar-view.coffee	/^  invalidInput: ->$/;"	function	line:33
+strict-mode.coffee	/home/arathunku/src/lisp-paredit-edited/lib/strict-mode.coffee	1;"	file	line:1
+enableStrictMode	/home/arathunku/src/lisp-paredit-edited/lib/strict-mode.coffee	/^  enableStrictMode: (strictSubs, views) ->$/;"	function	line:9
+disableStrictMode	/home/arathunku/src/lisp-paredit-edited/lib/strict-mode.coffee	/^  disableStrictMode: (strictSubs, views) ->$/;"	function	line:21
+enableEditorStrictMode	/home/arathunku/src/lisp-paredit-edited/lib/strict-mode.coffee	/^enableEditorStrictMode = (strictSubs, editor, views) ->$/;"	function	line:28
+navigation-commands.coffee	/home/arathunku/src/lisp-paredit-edited/lib/navigation-commands.coffee	1;"	file	line:1
+forwardSexp	/home/arathunku/src/lisp-paredit-edited/lib/navigation-commands.coffee	/^  forwardSexp: ->$/;"	function	line:6
+backwardSexp	/home/arathunku/src/lisp-paredit-edited/lib/navigation-commands.coffee	/^  backwardSexp: ->$/;"	function	line:8
+upSexp	/home/arathunku/src/lisp-paredit-edited/lib/navigation-commands.coffee	/^  upSexp: ->$/;"	function	line:10
+downSexp	/home/arathunku/src/lisp-paredit-edited/lib/navigation-commands.coffee	/^  downSexp: ->$/;"	function	line:12
+expandSelection	/home/arathunku/src/lisp-paredit-edited/lib/navigation-commands.coffee	/^  expandSelection: ->$/;"	function	line:15
+navigate	/home/arathunku/src/lisp-paredit-edited/lib/navigation-commands.coffee	/^navigate = (fn) ->$/;"	function	line:28
+main.coffee	/home/arathunku/src/lisp-paredit-edited/lib/main.coffee	1;"	file	line:1
+activate	/home/arathunku/src/lisp-paredit-edited/lib/main.coffee	/^  activate: (state) ->$/;"	function	line:27
+deactivate	/home/arathunku/src/lisp-paredit-edited/lib/main.coffee	/^  deactivate: ->$/;"	function	line:53
+consumeStatusBar	/home/arathunku/src/lisp-paredit-edited/lib/main.coffee	/^  consumeStatusBar: (statusBar) ->$/;"	function	line:59
+disableParedit	/home/arathunku/src/lisp-paredit-edited/lib/main.coffee	/^disableParedit = (subs, views) ->$/;"	function	line:64
+enableParedit	/home/arathunku/src/lisp-paredit-edited/lib/main.coffee	/^enableParedit = (subs, views) ->$/;"	function	line:68
+observeEditor	/home/arathunku/src/lisp-paredit-edited/lib/main.coffee	/^observeEditor = (editor, subs, views) ->$/;"	function	line:102
+checkSyntax	/home/arathunku/src/lisp-paredit-edited/lib/main.coffee	/^checkSyntax = (editor, views) ->$/;"	function	line:107
+toggle	/home/arathunku/src/lisp-paredit-edited/lib/main.coffee	/^toggle = () ->$/;"	function	line:115
+toggleStrict	/home/arathunku/src/lisp-paredit-edited/lib/main.coffee	/^toggleStrict = () ->$/;"	function	line:118
+configureParedit	/home/arathunku/src/lisp-paredit-edited/lib/main.coffee	/^configureParedit = ->$/;"	function	line:130
+edit-commands.coffee	/home/arathunku/src/lisp-paredit-edited/lib/edit-commands.coffee	1;"	file	line:1
+slurpBackwards	/home/arathunku/src/lisp-paredit-edited/lib/edit-commands.coffee	/^  slurpBackwards: ->$/;"	function	line:6
+slurpForwards	/home/arathunku/src/lisp-paredit-edited/lib/edit-commands.coffee	/^  slurpForwards: ->$/;"	function	line:9
+barfBackwards	/home/arathunku/src/lisp-paredit-edited/lib/edit-commands.coffee	/^  barfBackwards: ->$/;"	function	line:12
+barfForwards	/home/arathunku/src/lisp-paredit-edited/lib/edit-commands.coffee	/^  barfForwards: ->$/;"	function	line:15
+killSexpForwards	/home/arathunku/src/lisp-paredit-edited/lib/edit-commands.coffee	/^  killSexpForwards: ->$/;"	function	line:18
+killSexpBackwards	/home/arathunku/src/lisp-paredit-edited/lib/edit-commands.coffee	/^  killSexpBackwards: ->$/;"	function	line:21
+splice	/home/arathunku/src/lisp-paredit-edited/lib/edit-commands.coffee	/^  splice: ->$/;"	function	line:24
+spliceBackwards	/home/arathunku/src/lisp-paredit-edited/lib/edit-commands.coffee	/^  spliceBackwards: ->$/;"	function	line:27
+spliceForwards	/home/arathunku/src/lisp-paredit-edited/lib/edit-commands.coffee	/^  spliceForwards: ->$/;"	function	line:30
+split	/home/arathunku/src/lisp-paredit-edited/lib/edit-commands.coffee	/^  split: ->$/;"	function	line:33
+indent	/home/arathunku/src/lisp-paredit-edited/lib/edit-commands.coffee	/^  indent: ->$/;"	function	line:36
+deleteBackwards	/home/arathunku/src/lisp-paredit-edited/lib/edit-commands.coffee	/^  deleteBackwards: ->$/;"	function	line:41
+deleteForwards	/home/arathunku/src/lisp-paredit-edited/lib/edit-commands.coffee	/^  deleteForwards: ->$/;"	function	line:44
+wrapAroundParens	/home/arathunku/src/lisp-paredit-edited/lib/edit-commands.coffee	/^  wrapAroundParens: ->$/;"	function	line:47
+wrapAroundSquare	/home/arathunku/src/lisp-paredit-edited/lib/edit-commands.coffee	/^  wrapAroundSquare: ->$/;"	function	line:50
+wrapAroundCurly	/home/arathunku/src/lisp-paredit-edited/lib/edit-commands.coffee	/^  wrapAroundCurly: ->$/;"	function	line:53
+paste	/home/arathunku/src/lisp-paredit-edited/lib/edit-commands.coffee	/^  paste: (views) ->$/;"	function	line:56
+newline	/home/arathunku/src/lisp-paredit-edited/lib/edit-commands.coffee	/^  newline: ->$/;"	function	line:68
+indentRange	/home/arathunku/src/lisp-paredit-edited/lib/edit-commands.coffee	/^indentRange = (range, editor) ->$/;"	function	line:96
+applyChanges	/home/arathunku/src/lisp-paredit-edited/lib/edit-commands.coffee	/^applyChanges = (result, editor) ->$/;"	function	line:115
+insert	/home/arathunku/src/lisp-paredit-edited/lib/edit-commands.coffee	/^  insert: (editor, [index, text]) ->$/;"	function	line:136
+remove	/home/arathunku/src/lisp-paredit-edited/lib/edit-commands.coffee	/^  remove: (editor, [index, length]) ->$/;"	function	line:141
+wrapAroundFn	/home/arathunku/src/lisp-paredit-edited/lib/edit-commands.coffee	/^wrapAroundFn = (start, end) ->$/;"	function	line:147
+edit	/home/arathunku/src/lisp-paredit-edited/lib/edit-commands.coffee	/^edit = (fn, args = {}) ->$/;"	function	line:151
+utils.coffee	/home/arathunku/src/lisp-paredit-edited/lib/utils.coffee	1;"	file	line:1
+indexToPoint	/home/arathunku/src/lisp-paredit-edited/lib/utils.coffee	/^  indexToPoint: (index, src) ->$/;"	function	line:6
+isSupportedGrammar	/home/arathunku/src/lisp-paredit-edited/lib/utils.coffee	/^  isSupportedGrammar: (grammar) ->$/;"	function	line:15
+addClass	/home/arathunku/src/lisp-paredit-edited/lib/utils.coffee	/^  addClass: (view, clazz) ->$/;"	function	line:18
+removeClass	/home/arathunku/src/lisp-paredit-edited/lib/utils.coffee	/^  removeClass: (view, clazz) ->$/;"	function	line:21
+convertPointToIndex	/home/arathunku/src/lisp-paredit-edited/lib/utils.coffee	/^  convertPointToIndex: (point, editor) ->$/;"	function	line:25
+convertIndexToPoint	/home/arathunku/src/lisp-paredit-edited/lib/utils.coffee	/^  convertIndexToPoint: (index, editor) ->$/;"	function	line:29
+addCommands	/home/arathunku/src/lisp-paredit-edited/lib/utils.coffee	/^  addCommands: (commands, subs, views) ->$/;"	function	line:33
+addCommand	/home/arathunku/src/lisp-paredit-edited/lib/utils.coffee	/^addCommand = (command, subs, views) ->$/;"	function	line:36
+views.coffee	/home/arathunku/src/lisp-paredit-edited/lib/views.coffee	1;"	file	line:1
+Views	/home/arathunku/src/lisp-paredit-edited/lib/views.coffee	/^class Views$/;"	function	line:5
+constructor	/home/arathunku/src/lisp-paredit-edited/lib/views.coffee	/^  constructor: (@toggleCallback, @toggleStrictCallback) ->$/;"	function	line:6
+setStatusBar	/home/arathunku/src/lisp-paredit-edited/lib/views.coffee	/^  setStatusBar: (statusBar) ->$/;"	function	line:9
+showErrors	/home/arathunku/src/lisp-paredit-edited/lib/views.coffee	/^  showErrors: (editor, errors) ->$/;"	function	line:13
+clearErrors	/home/arathunku/src/lisp-paredit-edited/lib/views.coffee	/^  clearErrors: (editor) ->$/;"	function	line:22
+enabled	/home/arathunku/src/lisp-paredit-edited/lib/views.coffee	/^  enabled: (isEnabled) ->$/;"	function	line:27
+strictModeEnabled	/home/arathunku/src/lisp-paredit-edited/lib/views.coffee	/^  strictModeEnabled: (isEnabled) ->$/;"	function	line:31
+detach	/home/arathunku/src/lisp-paredit-edited/lib/views.coffee	/^  detach: ->$/;"	function	line:35
+invalidInput	/home/arathunku/src/lisp-paredit-edited/lib/views.coffee	/^  invalidInput: ->$/;"	function	line:39
+lisp-paredit.cson	/home/arathunku/src/lisp-paredit-edited/menus/lisp-paredit.cson	1;"	file	line:1
+menu	/home/arathunku/src/lisp-paredit-edited/menus/lisp-paredit.cson	/^'menu': [$/;"	function	line:1
+label	/home/arathunku/src/lisp-paredit-edited/menus/lisp-paredit.cson	/^    'label': 'Packages'$/;"	function	line:3
+submenu	/home/arathunku/src/lisp-paredit-edited/menus/lisp-paredit.cson	/^    'submenu': [$/;"	function	line:4
+label	/home/arathunku/src/lisp-paredit-edited/menus/lisp-paredit.cson	/^      'label': 'Lisp Paredit'$/;"	function	line:5
+submenu	/home/arathunku/src/lisp-paredit-edited/menus/lisp-paredit.cson	/^      'submenu': [$/;"	function	line:6
+lisp-paredit.cson	/home/arathunku/src/lisp-paredit-edited/keymaps/lisp-paredit.cson	1;"	file	line:1
+ctrl-alt-,	/home/arathunku/src/lisp-paredit-edited/keymaps/lisp-paredit.cson	/^  'ctrl-alt-,':         'lisp-paredit:barf-forwards'$/;"	function	line:5
+ctrl-alt-.	/home/arathunku/src/lisp-paredit-edited/keymaps/lisp-paredit.cson	/^  'ctrl-alt-.':         'lisp-paredit:slurp-forwards'$/;"	function	line:6
+ctrl-alt-<	/home/arathunku/src/lisp-paredit-edited/keymaps/lisp-paredit.cson	/^  'ctrl-alt-<':         'lisp-paredit:slurp-backwards'$/;"	function	line:7
+ctrl-alt->	/home/arathunku/src/lisp-paredit-edited/keymaps/lisp-paredit.cson	/^  'ctrl-alt->':         'lisp-paredit:barf-backwards'$/;"	function	line:8
+cmd-delete	/home/arathunku/src/lisp-paredit-edited/keymaps/lisp-paredit.cson	/^  'cmd-delete':         'lisp-paredit:kill-sexp-forwards'$/;"	function	line:10
+cmd-backspace	/home/arathunku/src/lisp-paredit-edited/keymaps/lisp-paredit.cson	/^  'cmd-backspace':      'lisp-paredit:kill-sexp-backwards'$/;"	function	line:12
+alt-backspace	/home/arathunku/src/lisp-paredit-edited/keymaps/lisp-paredit.cson	/^  'alt-backspace':      'lisp-paredit:kill-sexp-backwards'$/;"	function	line:13
+ctrl-alt-i	/home/arathunku/src/lisp-paredit-edited/keymaps/lisp-paredit.cson	/^  'ctrl-alt-i':         'lisp-paredit:indent'$/;"	function	line:15
+ctrl-right	/home/arathunku/src/lisp-paredit-edited/keymaps/lisp-paredit.cson	/^  'ctrl-right':         'lisp-paredit:forward-sexp'$/;"	function	line:17
+ctrl-left	/home/arathunku/src/lisp-paredit-edited/keymaps/lisp-paredit.cson	/^  'ctrl-left':          'lisp-paredit:backward-sexp'$/;"	function	line:18
+ctrl-up	/home/arathunku/src/lisp-paredit-edited/keymaps/lisp-paredit.cson	/^  'ctrl-up':            'lisp-paredit:up-sexp'$/;"	function	line:19
+ctrl-down	/home/arathunku/src/lisp-paredit-edited/keymaps/lisp-paredit.cson	/^  'ctrl-down':          'lisp-paredit:down-sexp'$/;"	function	line:20
+ctrl-w	/home/arathunku/src/lisp-paredit-edited/keymaps/lisp-paredit.cson	/^  'ctrl-w':             'lisp-paredit:expand-selection'$/;"	function	line:21
+enter	/home/arathunku/src/lisp-paredit-edited/keymaps/lisp-paredit.cson	/^  'enter':              'lisp-paredit:newline'$/;"	function	line:23
+ctrl-alt-up	/home/arathunku/src/lisp-paredit-edited/keymaps/lisp-paredit.cson	/^  'ctrl-alt-up':        'lisp-paredit:splice-backwards'$/;"	function	line:25
+ctrl-alt-down	/home/arathunku/src/lisp-paredit-edited/keymaps/lisp-paredit.cson	/^  'ctrl-alt-down':      'lisp-paredit:splice-forwards'$/;"	function	line:26
+ctrl-alt-s	/home/arathunku/src/lisp-paredit-edited/keymaps/lisp-paredit.cson	/^  'ctrl-alt-s':         'lisp-paredit:splice'$/;"	function	line:27
+ctrl-alt-/	/home/arathunku/src/lisp-paredit-edited/keymaps/lisp-paredit.cson	/^  'ctrl-alt-\/':         'lisp-paredit:split'$/;"	function	line:28
+ctrl-alt-(	/home/arathunku/src/lisp-paredit-edited/keymaps/lisp-paredit.cson	/^  'ctrl-alt-(':         'lisp-paredit:wrap-around-parens'$/;"	function	line:29
+ctrl-alt-9	/home/arathunku/src/lisp-paredit-edited/keymaps/lisp-paredit.cson	/^  'ctrl-alt-9':         'lisp-paredit:wrap-around-parens'$/;"	function	line:30
+ctrl-alt-[	/home/arathunku/src/lisp-paredit-edited/keymaps/lisp-paredit.cson	/^  'ctrl-alt-[':         'lisp-paredit:wrap-around-square'$/;"	function	line:31
+ctrl-alt-{	/home/arathunku/src/lisp-paredit-edited/keymaps/lisp-paredit.cson	/^  'ctrl-alt-{':         'lisp-paredit:wrap-around-curly'$/;"	function	line:32
+backspace	/home/arathunku/src/lisp-paredit-edited/keymaps/lisp-paredit.cson	/^  'backspace':          'lisp-paredit:delete-backwards'$/;"	function	line:38
+ctrl-h	/home/arathunku/src/lisp-paredit-edited/keymaps/lisp-paredit.cson	/^  'ctrl-h':             'lisp-paredit:delete-backwards'$/;"	function	line:39
+delete	/home/arathunku/src/lisp-paredit-edited/keymaps/lisp-paredit.cson	/^  'delete':             'lisp-paredit:delete-forwards'$/;"	function	line:40
+ctrl-d	/home/arathunku/src/lisp-paredit-edited/keymaps/lisp-paredit.cson	/^  'ctrl-d':             'lisp-paredit:delete-forwards'$/;"	function	line:41
+cmd-v	/home/arathunku/src/lisp-paredit-edited/keymaps/lisp-paredit.cson	/^  'cmd-v':              'lisp-paredit:paste'$/;"	function	line:42
+LICENSE.md	/home/arathunku/src/lisp-paredit-edited/LICENSE.md	1;"	file	line:1
+README.md	/home/arathunku/src/lisp-paredit-edited/README.md	1;"	file	line:1
+Lisp Paredit for Atom	/home/arathunku/src/lisp-paredit-edited/README.md	/^# Lisp Paredit for Atom$/;"	Heading_L1	line:1
+Lisp Paredit for Atom	/home/arathunku/src/lisp-paredit-edited/README.md	/^# Lisp Paredit for Atom$/;"	function	line:1
+Features	/home/arathunku/src/lisp-paredit-edited/README.md	/^## Features$/;"	Heading_L2	line:9
+Features	/home/arathunku/src/lisp-paredit-edited/README.md	/^## Features$/;"	function	line:9
+Installing	/home/arathunku/src/lisp-paredit-edited/README.md	/^## Installing$/;"	Heading_L2	line:16
+Installing	/home/arathunku/src/lisp-paredit-edited/README.md	/^## Installing$/;"	function	line:16
+Options	/home/arathunku/src/lisp-paredit-edited/README.md	/^## Options$/;"	Heading_L2	line:21
+Options	/home/arathunku/src/lisp-paredit-edited/README.md	/^## Options$/;"	function	line:21
+Paredit Commands	/home/arathunku/src/lisp-paredit-edited/README.md	/^## Paredit Commands$/;"	Heading_L2	line:26
+Paredit Commands	/home/arathunku/src/lisp-paredit-edited/README.md	/^## Paredit Commands$/;"	function	line:26
+Overidden Commands	/home/arathunku/src/lisp-paredit-edited/README.md	/^## Overidden Commands$/;"	Heading_L2	line:52
+Overidden Commands	/home/arathunku/src/lisp-paredit-edited/README.md	/^## Overidden Commands$/;"	function	line:52
+lisp-paredit.atom-text-editor.less	/home/arathunku/src/lisp-paredit-edited/styles/lisp-paredit.atom-text-editor.less	1;"	file	line:1
+atom-text-editor::shadow .lisp-syntax-error .region	/home/arathunku/src/lisp-paredit-edited/styles/lisp-paredit.atom-text-editor.less	/^atom-text-editor::shadow .lisp-syntax-error .region {$/;"	function	line:3
+lisp-paredit.less	/home/arathunku/src/lisp-paredit-edited/styles/lisp-paredit.less	1;"	file	line:1
+.lisp-paredit-status	/home/arathunku/src/lisp-paredit-edited/styles/lisp-paredit.less	/^.lisp-paredit-status {$/;"	function	line:3
+.lisp-paredit-status > .enabled-status	/home/arathunku/src/lisp-paredit-edited/styles/lisp-paredit.less	/^.lisp-paredit-status > .enabled-status {$/;"	function	line:6
+.lisp-paredit-status > .strict-status	/home/arathunku/src/lisp-paredit-edited/styles/lisp-paredit.less	/^.lisp-paredit-status > .strict-status {$/;"	function	line:9
+.lisp-paredit-status.enabled > .enabled-status	/home/arathunku/src/lisp-paredit-edited/styles/lisp-paredit.less	/^.lisp-paredit-status.enabled > .enabled-status {$/;"	function	line:13
+.lisp-paredit-status.strict.enabled > .strict-status	/home/arathunku/src/lisp-paredit-edited/styles/lisp-paredit.less	/^.lisp-paredit-status.strict.enabled > .strict-status {$/;"	function	line:16
+.lisp-paredit-status.error > .strict-status	/home/arathunku/src/lisp-paredit-edited/styles/lisp-paredit.less	/^.lisp-paredit-status.error > .strict-status {$/;"	function	line:19
+package.json	/home/arathunku/src/lisp-paredit-edited/package.json	1;"	file	line:1
+name	/home/arathunku/src/lisp-paredit-edited/package.json	/^  "name": "lisp-paredit",$/;"	function	line:2
+main	/home/arathunku/src/lisp-paredit-edited/package.json	/^  "main": ".\/lib\/main",$/;"	function	line:3
+version	/home/arathunku/src/lisp-paredit-edited/package.json	/^  "version": "0.4.6",$/;"	function	line:4
+description	/home/arathunku/src/lisp-paredit-edited/package.json	/^  "description": "Paredit for Atom",$/;"	function	line:5
+repository	/home/arathunku/src/lisp-paredit-edited/package.json	/^  "repository": "https:\/\/github.com\/jonspalding\/lisp-paredit",$/;"	function	line:6
+license	/home/arathunku/src/lisp-paredit-edited/package.json	/^  "license": "MIT",$/;"	function	line:7
+engines	/home/arathunku/src/lisp-paredit-edited/package.json	/^  "engines": {$/;"	function	line:8
+atom	/home/arathunku/src/lisp-paredit-edited/package.json	/^    "atom": ">=0.208.0"$/;"	function	line:9
+dependencies	/home/arathunku/src/lisp-paredit-edited/package.json	/^  "dependencies": {$/;"	function	line:11
+paredit.js	/home/arathunku/src/lisp-paredit-edited/package.json	/^    "paredit.js": "^0.2.11",$/;"	function	line:12
+atom-space-pen-views	/home/arathunku/src/lisp-paredit-edited/package.json	/^    "atom-space-pen-views": "^2.0.5"$/;"	function	line:13
+consumedServices	/home/arathunku/src/lisp-paredit-edited/package.json	/^  "consumedServices": {$/;"	function	line:15
+status-bar	/home/arathunku/src/lisp-paredit-edited/package.json	/^    "status-bar": {$/;"	function	line:16
+versions	/home/arathunku/src/lisp-paredit-edited/package.json	/^      "versions": {$/;"	function	line:17
+^1.0.0	/home/arathunku/src/lisp-paredit-edited/package.json	/^        "^1.0.0": "consumeStatusBar"$/;"	function	line:18

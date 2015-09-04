@@ -88,6 +88,10 @@ describe "LispParedit", ->
     testCommand "expand-selection",     "(a (<b> c) d)",        "(a (<b c>) d)"
     testCommand "expand-selection",     "(a (<b>\n c) d)",      "(a (<b\n c>) d)"
 
+    testCommand "shrink-selection",    "(a (<b> c) d)",         "(a (b| c) d)",
+    testCommand "shrink-selection",    "(a (<b c>) d)",         "(a (<b >c) d)",
+    testCommand "shrink-selection",    "(a (<b\n c>) d)",       "(a (<b\n >c) d)"
+
     testCommand "delete-backwards",     "(a b c|)",             "(a b |)"
     testCommand "delete-backwards",     "(a| b| c|)",           "(| | |)"
     testCommand "delete-backwards",     "(|)",                  "|"
